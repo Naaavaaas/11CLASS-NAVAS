@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+<link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Quicksand&display=swap" rel="stylesheet">
+
+h1 {font-family:font-family: 'Covered By Your Grace', cursive;}
+
+.lead {font-family:font-family: 'Quicksand', sans-serif;}
+
+.btn-success {
+    background-color: #1D1616;
+    border-color: #8FB0CB;
+  }
+
+.btn-primary{
+    background-color: darkturquoise;
+    border-color:darkturquoise;
+    color:#070707;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color:lightseagreen;
+    border-color:white;
+  }
+
+  .btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: #8FB0CB;
+    border-color: #070707;
+    box-shadow: 0 0 0 0.2rem rgba(74C4C4);
+  }
+
+  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color:darkturquoise;
+  border-color:#070707;
+}
+
+.navbar-brand { color:royalblue}
+
+
